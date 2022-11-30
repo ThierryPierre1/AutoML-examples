@@ -1,0 +1,16 @@
+if (Total Costs > 9078.685) and (Type of Admission > 0.5) and (Total Charges > 21268.5) then class: long (proba: 85.84%) | based on 4,123 samples
+
+if (Total Costs <= 9078.685) and (Total Costs <= 4889.275) and (CCS Diagnosis Code <= 654.0) then class: short (proba: 95.29%) | based on 3,376 samples
+
+if (Total Costs <= 9078.685) and (Total Costs > 4889.275) and (CCS Diagnosis Code <= 253.5) then class: short (proba: 71.25%) | based on 3,033 samples
+
+if (Total Costs > 9078.685) and (Type of Admission <= 0.5) and (Total Costs <= 23891.601) then class: short (proba: 64.61%) | based on 1,088 samples
+
+if (Total Costs > 9078.685) and (Type of Admission <= 0.5) and (Total Costs > 23891.601) then class: long (proba: 75.26%) | based on 489 samples
+
+if (Total Costs > 9078.685) and (Type of Admission > 0.5) and (Total Charges <= 21268.5) then class: short (proba: 54.09%) | based on 416 samples
+
+if (Total Costs <= 9078.685) and (Total Costs <= 4889.275) and (CCS Diagnosis Code > 654.0) then class: short (proba: 65.78%) | based on 374 samples
+
+if (Total Costs <= 9078.685) and (Total Costs > 4889.275) and (CCS Diagnosis Code > 253.5) then class: long (proba: 83.61%) | based on 366 samples
+
